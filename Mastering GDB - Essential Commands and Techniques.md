@@ -143,6 +143,7 @@ quit
     - `continue` resumes program execution.
 - `run arg1 arg2` starts the program with the specified arguments.
 - `quit` exits GDB after the script is executed.
+  
 #### 9.4 Additional GDB Script Commands
 
 1. Conditional Breakpoints
@@ -150,11 +151,11 @@ quit
    
 2. Looping in Scripts
    ```
-	while $pc != 0
+   while $pc != 0
     p $rax
     stepi
 	end
-```
+   ```
 
 3. Calling Functions
 
