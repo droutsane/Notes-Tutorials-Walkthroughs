@@ -155,7 +155,6 @@ quit
     stepi
 	end
 ```
-```
 
 3. Calling Functions
 
